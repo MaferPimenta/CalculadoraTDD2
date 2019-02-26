@@ -21,7 +21,7 @@ public class Calculadora {
 		 String delimit = delimitReturn(expressao);
 		 
 		 if (expressao.startsWith("//[")) {
-				expressao = expressao.substring(delimit.length() + 4);
+			expressao = expressao.substring(delimit.length() + 4);
 		 }
 		 else if (expressao.startsWith("//")) {
 			expressao = expressao.substring(delimit.length() + 2);
